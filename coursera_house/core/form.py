@@ -8,6 +8,7 @@ class ControllerForm(forms.Form):
     bathroom_light = forms.BooleanField()
 
     def clean(self):
+        """Form data from validation"""
         cleaned_data = super().clean()
         bedroom_temperature = self.data.get('bedroom_target_temperature')
         hot_temperature = self.data.get('hot_water_target_temperature')
