@@ -1,6 +1,7 @@
-/db.sqlite3
-/instruction.rst
-Pipfile
+db.sqlite3
+instruction.rst
 Pipfile.lock
+Pipfile
 setup.cfg
 /venvDj
+
